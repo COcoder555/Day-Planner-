@@ -30,7 +30,7 @@ function Save() {
 let $textarea = document.querySelectorAll("textarea");
 
 //  Created a fucntion named Saved uesed to retrieve saved text from local storage
-
+// In the function I created a loop that would loop though the newely formed array and retrieve text from local storage according to its Id pair. 
 function Saved() {
     for (i = 0; i < $textarea.length; i++)
         $textarea[i].textContent = localStorage.getItem($textarea[i].id);
@@ -38,6 +38,12 @@ function Saved() {
 
 // Called the Saved function
 Saved();
+
+// Created a loop to indicate weather each section was in the past, present, or future
+// In the loop I created a variable called "currentName" in which I used parsInt to parse out the text area turing into an integer
+// In the loop I created another variable called "currentTime" in which  I uses parsInt to turn the moment.format into an integer
+// I then used If else statments to compare "CurrentName" and "CurrenTime" to establish a text area was in the past, present, of future
+// Depending if the time of the textarea was in the past present or future I would change the class name changing the background colors
 
 for (i = 0; i < $textarea.length; i++) {
     let currentName = parseInt($textarea[i].name);
