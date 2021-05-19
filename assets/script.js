@@ -17,7 +17,7 @@ for (i = 0; i < $buttons.length; i++) {
 //  Created a save function.
 // In the funciton I created two variables 
 //  Using "this" I stored the value of the "text area" in a varible called "Input"
-//  Usidng "this" I stored the id's of the "text area" in a variable called "Key"
+//  Usidng "this" I stored the id attribute of the "text area" in a variable called "Key"
 //  I stored both Key an Imput in localStorage
 function Save() {
     let Input = $(this).siblings("textarea").val();
@@ -26,15 +26,17 @@ function Save() {
 
 }
 
-// Grabbed all the text area elements amd stored them in a variable "$textarea"
+// Grabbed all the text area elements amd stored them in a array called "$textarea"
 let $textarea = document.querySelectorAll("textarea");
 
+//  Created a fucntion named Saved uesed to retrieve saved text from local storage
 
 function Saved() {
     for (i = 0; i < $textarea.length; i++)
         $textarea[i].textContent = localStorage.getItem($textarea[i].id);
 };
 
+// Called the Saved function
 Saved();
 
 for (i = 0; i < $textarea.length; i++) {
