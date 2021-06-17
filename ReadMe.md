@@ -26,7 +26,7 @@
 * I created a "for loop" that would change the background color of the text areas depending if the time associated with that text area
 was in the past, present, or future. 
 
-    [Day Planner](https://cocoder555.github.io/Day-Planner-/"Day Planner")
+  [Day Planner](https://cocoder555.github.io/Day-Planner-/)
 
-   ![Day Planner](./assets/Screenshot.png)
+   ![Day Planner](./assets/Screenshot%20.png)
 
