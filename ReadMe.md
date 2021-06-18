@@ -1,7 +1,7 @@
  # Day Planner
 ### Built With:
   * HTML
-  * JavaS
+  * JavaScrip
 
 ## Constructing time, text area and buttons in HTML
  
