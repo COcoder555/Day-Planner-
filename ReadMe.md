@@ -1,7 +1,7 @@
  # Day Planner
 ### Built With:
   * HTML
-  * J
+  * Ja
 
 ## Constructing time, text area and buttons in HTML
  
