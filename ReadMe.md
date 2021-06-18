@@ -1,4 +1,7 @@
- # Day Planner
+ # Work Day Scheduler
+*  This application acts as a day planner for the user. The application allows the user to shedule and save daily events. 
+
+
 ### Built With:
   * HTML
   * JavaScript
