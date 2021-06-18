@@ -1,7 +1,9 @@
  # Day Planner
 ### Built With:
   * HTML
-  * JavaScrip
+  * JavaScript
+  * CSS 
+  * Moment.js
 
 ## Constructing time, text area and buttons in HTML
  
