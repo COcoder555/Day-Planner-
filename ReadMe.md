@@ -1,7 +1,7 @@
  # Day Planner
 ### Built With:
-    * HTML
-    
+  * HTML
+
 ## Constructing time, text area and buttons in HTML
  
  *  I created rows seperated into 3 columns: 
